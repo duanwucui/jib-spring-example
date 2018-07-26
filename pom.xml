@@ -53,17 +53,13 @@
 				<version>0.9.6</version>
 				<configuration>
 					<from>
-					    <!--base image-->
-					    <image>hub.docker.com/openjdk:alpine</image>
-					</from>
-					<to>
-						<image>10.4.34.25:5000/leiguorui/spring-jib:${project.version}</image>
-					</to>
-					<container>
-						<ports>
-							<port>8080</port>
-						</ports>
-					</container>
+					     <!--base image-->
+					     <image>hub.docker.com/openjdk:alpine</image>
+					 </from>
+					 <to>
+						 <image>localhost:5000/leiguorui/spring-jib:${project.version}</image>
+					 </to>
+					 <allowInsecureRegistries>true</allowInsecureRegistries>
 				</configuration>
 			</plugin>
 		</plugins>
