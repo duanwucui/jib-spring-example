@@ -53,7 +53,7 @@
 				<version>0.9.6</version>
 				<configuration>
 					<to>
-						<image>scnewma/spring-jib:${project.version}</image>
+						<image>10.4.34.25/leiguorui/spring-jib:${project.version}</image>
 					</to>
 					<container>
 						<ports>
