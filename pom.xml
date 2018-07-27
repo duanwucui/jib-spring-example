@@ -50,16 +50,21 @@
 			<plugin>
 				<groupId>com.google.cloud.tools</groupId>
 				<artifactId>jib-maven-plugin</artifactId>
-				<version>0.9.6</version>
+				<version>0.9.7</version>
 				<configuration>
+				
 					<from>
-					     <!--base image-->
-					     <image>hub.docker.com/openjdk:alpine</image>
-					 </from>
-					 <to>
-						 <image>localhost:5000/leiguorui/spring-jib:${project.version}</image>
-					 </to>
-					 <allowInsecureRegistries>true</allowInsecureRegistries>
+					    <!--base image-->
+					    <image>openjdk:alpine</image>
+					</from>
+					<to>
+						<image>localhost:5000/leiguorui/spring-jib:${project.version}</image>
+					</to>
+
+
+
+					<allowInsecureRegistries>true</allowInsecureRegistries>
+					
 				</configuration>
 			</plugin>
 		</plugins>
